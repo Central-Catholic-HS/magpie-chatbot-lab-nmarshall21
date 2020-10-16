@@ -45,6 +45,25 @@ public class Magpie3
 		{
 			response = "Tell me more about your family.";
 		}
+		else if (statement.indexOf("cat") >= 0
+			 	|| statement.indexOf("dog") >= 0
+		{
+			response = "Tell me more about your pets.";
+		}
+		else if (statement.indexOf("catholic") >=0
+			 	|| statement.indexOf("jewish") >= 0
+			 	|| statement.indexOf("muslim") >= 0
+			 	|| statement.indexOf("buddhist") >= 0
+			 	|| statement.indexOf("hindi") >= 0
+		{
+			response = "Tell me more about your faith.";
+		}
+		else if (statement.indexOf("rap") > = 0
+			 	|| statement.indexOf("pop") >= 0
+			 	|| statement.indexOf("folk") >= 0
+		{
+			response = "Have you ever heard of BTS? They're kind of underground."
+		}
 		else
 		{
 			response = getRandomResponse();
