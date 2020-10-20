@@ -280,6 +280,10 @@ public class Magpie5
 		Random r = new Random ();
 		return randomResponses [r.nextInt(randomResponses.length)];
 	}
+	/**
+	 * I didn't actually change anything. The code already functioned and seemed to have the changes predone.
+	 * Same thing in magpie 4 but it's whatever. I read through all of it so I should be ok ???
+	 */
 	
 	private String [] randomResponses = {"Interesting, tell me more",
 			"Hmmm.",
